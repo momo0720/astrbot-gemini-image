@@ -1,0 +1,50 @@
+{
+  "api_base_url": {
+    "description": "Gemini API 地址",
+    "type": "string",
+    "default": "https://example.com/v1beta"
+  },
+  "api_key": {
+    "description": "Gemini API Key",
+    "type": "string",
+    "default": "YOUR_API_KEY"
+  },
+  "models": {
+    "description": "模型列表。按顺序编号，发送 /m画图 2 提示词 可调用第 2 个模型。",
+    "type": "list",
+    "default": [
+      "gemini-3.1-flash-image-preview",
+      "gemini-3-pro-image-preview"
+    ]
+  },
+  "model": {
+    "description": "旧版单模型配置。仅当 models 为空时使用。",
+    "type": "string",
+    "default": "gemini-3.1-flash-image-preview"
+  },
+  "user_blacklist": {
+    "description": "用户黑名单。填写用户 QQ 号后，将无法使用 m画图。",
+    "type": "list",
+    "default": []
+  },
+  "default_aspect_ratio": {
+    "description": "默认图像比例，建议 9:16；插件会根据提示词自动匹配横图/方图/竖图",
+    "type": "string",
+    "default": "9:16"
+  },
+  "timeout": {
+    "description": "请求超时时间（秒）",
+    "type": "int",
+    "default": 180
+  },
+  "request_retries": {
+    "description": "当前模型的请求重试次数。超时、524、非 JSON、未返回图片等情况会自动重试",
+    "type": "int",
+    "default": 3
+  },
+  "download_retries": {
+    "description": "图片下载重试次数",
+    "type": "int",
+    "default": 2
+  }
+}
