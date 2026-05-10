@@ -2,6 +2,12 @@
 
 通过 Gemini 兼容 `generateContent` 接口出图。
 
+## 安装
+
+1. 将 `gemini_image` 目录复制到 AstrBot 的插件目录中。
+2. 在 AstrBot 插件配置页填写 `api_base_url`、`api_key` 和模型配置。
+3. 重启 AstrBot 或重载插件后即可使用。
+
 ## 命令
 
 - `/gemini画图 <提示词>`：默认模型 `gemini-3.1-flash-image-preview`，默认发送 `512` 分辨率，默认比例为 `9:16`
