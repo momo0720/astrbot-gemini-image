@@ -2,4 +2,4 @@ name: gemini_image
 display_name: Gemini 画图
 desc: Generate images with Gemini-compatible generateContent image models
 version: 1.0.0
-author: anonymous
+author: AImomo

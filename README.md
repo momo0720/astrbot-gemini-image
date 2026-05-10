@@ -32,7 +32,7 @@
 
 ## 安装
 
-1. 将 `gemini_image` 目录复制到 AstrBot 的插件目录中。
+1. 将仓库中的所有文件直接放入 AstrBot 的单个插件目录中。
 2. 在 AstrBot 插件配置页填写 `api_base_url`、`api_key` 和模型配置。
 3. 重启 AstrBot 或重载插件后即可使用。
 
