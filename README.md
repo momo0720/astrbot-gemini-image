@@ -1,32 +1,32 @@
 # astrbot-gemini-image
 
-Generate images through Gemini-compatible generateContent endpoints.
+一个通过 Gemini 兼容 generateContent 接口出图的 AstrBot 插件。
 
-## Features
+## 特性
 
-- Supports text-to-image and image-to-image generation.
-- Supports size options, model selection, quoted images, and avatar references.
+- 支持文生图和图生图。
+- 支持尺寸选项、模型切换、引用图片和头像参考图。
 
-## Installation
+## 安装
 
-1. Clone or download this repository.
-2. Copy the `gemini_image` directory into your AstrBot plugin directory.
-3. Open the AstrBot plugin configuration page and fill in the required settings.
-4. Restart AstrBot or reload the plugin.
+1. 克隆或下载本仓库。
+2. 将 `gemini_image` 目录复制到 AstrBot 的插件目录中。
+3. 在 AstrBot 插件配置页填写所需配置。
+4. 重启 AstrBot 或重载插件。
 
-## Usage
+## 使用
 
-- Main command: `/gemini画图`
-- Detailed command examples: see `gemini_image/README.md`
+- 主命令：`/gemini画图`
+- 更多命令示例：见 `gemini_image/README.md`
 
-## Repository Structure
+## 仓库结构
 
 - `gemini_image/main.py`
 - `gemini_image/_conf_schema.json`
 - `gemini_image/metadata.yaml`
 - `gemini_image/README.md`
 
-## Notes
+## 说明
 
-- Sensitive local API endpoints and keys have been replaced with placeholders where applicable.
-- Runtime-specific local config files are not included.
+- 已将本地敏感 API 地址和 Key 替换为占位内容（如适用）。
+- 不包含运行环境中的本地配置文件。
